@@ -26,7 +26,7 @@ def cambio_monedas_retroceso(monedas, monto):
 
 def obtener_entradas():
 
-    monedas = input("Introduzca el valor de cada moneda,profesor debe de colocarlas separadas por espacios de lo contrario el algoritmo de Backtracking no funcionara(Ejemplo: 10 20 30): ").split()
+    monedas = input("Introduzca el valor de cada moneda, debe de colocarlas separadas por espacios(Ejemplo: 10 20 30): ").split()
   
     monedas = [int(moneda) for moneda in monedas]
     monto = int(input("Introduzca el monto especifico(Ejemplo 200): "))
